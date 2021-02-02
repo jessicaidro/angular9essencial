@@ -6,7 +6,8 @@
     "start": "json-server --watch db.json --port 3001",
     "build": "ng build",
     "test": "ng test",
-    "lint": "ng lint"
+    "lint": "ng lint",
+    "postinstall": "ngcc"
   },
   "private": true,
   "dependencies": {
