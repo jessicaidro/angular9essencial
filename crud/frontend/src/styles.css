@@ -10,3 +10,11 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .v-middle {
     vertical-align: middle;
 }
+.msg-sucess {
+    background-color: rgb(7, 78, 23);
+    color: white;
+}
+.msg-error {
+    background-color: rgb(78, 7, 7);
+    color: white;
+}
